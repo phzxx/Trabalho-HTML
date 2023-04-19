@@ -1,0 +1,67 @@
+<html>
+    <head>
+        <title>Aula formulário</title>
+    </head>
+    <body>
+        <header style="background-color:blue ; text-align: center;">
+            <h1 style="font-size: 60px;">HTML<sup>Linguagem de Marcação de Hipertexto</sup></h1>
+            <h2 style="font-size: 40px;">Tutoriais para iniciantes</h2>
+         </header>
+         <section style="display: flex; background-color: blue;">
+            <a href="index.html" style="color: white; width: 300px;">Início</a>
+            <a href="index.html" style="color: white; width: 300px;">HTML</a>
+            <a href="index.html" style="color: white; width: 300px;">Tabela e Listas</a>
+            <a href="index.html" style="color: white; width: 300px;">Sobre CSS,HTML e JavaScript</a>
+            <a href="index.html" style="color: white; width: 300px;">Links</a>
+            <a href="contato.html" style="color: white;">Contato</a>
+         </section>
+         <section>
+            <h1>Fale Conosco</h1>
+            <h3>Preencha o formulário para entrar em contato</h3>
+         </section>
+         <section>
+        <form action="obrigado.html" method="get">
+            <label>Digite seu nome: </label>
+            <input type="text" name="Nome" required><br><br>
+            <label>Digite seu email: </label>
+            <input type="email" placeholder="seuemail@gmail.com" name="email" required><br><br>
+            <label>Assunto: </label>
+            <select name="select">
+                <option value="Valor 1"> Elogio</option>
+                <option value="Valor 2"> Crítica</option>
+                <option value="Valor 3"> Outros</option>
+            </select> <br> <br>
+            <label>Mensagem: </label>
+            <textarea name="Mensagem"></textarea><br><br>
+            <input type="checkbox" name="Termo" value="Concordo com os Termos" required>
+            <label>Concordo com os Termos de Privacidade do Site</label> <br><br>
+            <input type="submit" value="Enviar mensagem" required><br><br>
+            </form>
+         </section>
+         <section style="display: flex;">
+            <ul style="width: 300px;">
+                <caption><strong>Sobre</strong></caption>
+                <li><a href="index.html">Topo</a></li>
+                <li>Política de privacidade</li>
+                <li><a href="contato.html">Fale Conosco</a></li>
+            </ul>
+            <ul style="width: 300px;">
+                <caption><strong>Referências</strong></caption>
+                <li><a href="https://www.youtube.com/">Youtube</a></li>
+                <li><a href="https://www.w3schools.com/">W3Schools</a></li>
+                <li><a href="https://www.alura.com.br/formacao-html-css">Alura</a></li>
+            </ul>
+            <ul style="width: 300px;">
+                <caption><strong>Tutoriais</strong></caption>
+                <li>Design</li>
+                <li>Marketing</li>
+                <li>Programação</li>
+            </ul>
+            <ul style="width: 300px;">
+                <caption><strong>Outros Links</strong></caption>
+                <li><a href="https://www.devmedia.com.br/html-basico-codigos-html/16596">DevMedia</a></li>
+                <li><a href="https://www.treinaweb.com.br/blog/o-que-e-e-como-comecar-com-html-e-css">TreinaWeb</a></li>
+                <li><a href="https://www.udemy.com/course/introducao-a-linguagem-html/">Udemy</a></li>
+            </ul>
+         </section>
+    </body>
