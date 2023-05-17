@@ -1,0 +1,27 @@
+.Protocolos{
+    background-color: purple; float: left; width: 50%;
+}
+
+.TextoCSS{
+    background-color: blueviolet; width: 520px; height: 250px;
+}
+
+.TextoHTML{
+    background-color: navy; width: 520px; height: 250px;
+}
+
+.TextoJS{
+    background-color: aquamarine; width: 520px; height: 250px;
+}
+
+.Header{
+    background-color:blue ; text-align: center;
+}
+
+.Tabela{
+    background-color: aqua; float: left; width: 50%
+}
+
+.Direcionamentos{
+    display: flex; background-color: blue;
+}
